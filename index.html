@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Motivation: Achieve Your Goals, Mobile App</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
+<link rel="stylesheet" href="style.css">
 <script src=""></script>
+
 <body>
+  <div id="container">
+    <div id="header">
+      <h1>Motivation: Achieve Your Goals</h1>
+      <p>This is the support page for my motivation mobile app.</p>
+    </div>
 
-<img src="img_la.jpg" alt="LA" style="width:100%">
-
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
-</div>
-
+    <div id="first">
+      <p>
+        Please contact me with any feature requests or bugs. You don't need to leave your name or email if you're not
+        interested in hearing back from me.
+      </p>
+      <p>Thank you!</p>
+      <hr />
+      <br />
+      <form action="https://formspree.io/f/mdojovgn" method="POST">
+        <label>
+          Name:
+          <input type="name" name="name" id="fname">
+        </label>
+        <br />
+        <br />
+        <label>
+          Email:
+          <input type="email" name="email" id="email">
+        </label>
+        <br />
+        <br />
+        <label>
+          Message:*
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="footer">
+      <p>Copyright 2022 Eric Schmidt</p>
+    </div>
+  </div>
 </body>
-</html> 
+
+</html>
