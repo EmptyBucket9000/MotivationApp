@@ -1,7 +1,7 @@
 @import "http://fonts.googleapis.com/css?family=Raleway";
 
 div#first {
-  width: 350px;
+  width: 400px;
   height: auto;
   margin: 50px auto;
   padding: 30px 50px;
@@ -23,7 +23,7 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 2px 10px;
-  width: 310px;
+  width: 360px;
   height: 30px;
   font-size: 14px;
   box-shadow: 0 0 5px;
@@ -39,7 +39,7 @@ textarea {
 }
 
 textarea#message {
-  width: 330px;
+  width: 380px;
   height: 150px;
   padding: 10px 10px;
 }
@@ -84,4 +84,20 @@ div#footer {
 
 div#first p {
   color: #FFF;
+}
+
+ol {
+  color: #FFF;
+}
+
+a {
+  color: #53d3f1;
+}
+
+li {
+  margin: 3px 0;
+}
+
+span.bold {
+  font-weight: 600;
 }
