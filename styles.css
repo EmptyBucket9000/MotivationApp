@@ -63,6 +63,7 @@ body {
 div#container {
   background-color: #111;
   max-width: 1080px;
+  min-width: 420px;
   margin: auto;
   box-shadow: 0 0 5px;
   -webkit-box-shadow: 0 0 5px;
