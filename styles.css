@@ -8,7 +8,7 @@ div#first {
   background-color: #555;
   color: #333;
   border: 2px solid #C2D6FF;
-  border-radius: 40px 0 40px 0;
+  border-radius: 40px 0;
 }
 
 label {
@@ -28,14 +28,10 @@ textarea {
   font-size: 14px;
   box-shadow: 0 0 5px;
   -webkit-box-shadow: 0 0 5px;
-  /* For I.E */
   -moz-box-shadow: 0 0 5px;
-  /* For Mozilla Web Browser */
   border-radius: 5px;
   -webkit-border-radius: 5px;
-  /* For I.E */
-  -moz-border-radius: 5px
-    /* For Mozilla Web Browser */
+  -moz-border-radius: 5px;
 }
 
 textarea#message {
@@ -70,14 +66,10 @@ div#container {
   margin: auto;
   box-shadow: 0 0 5px;
   -webkit-box-shadow: 0 0 5px;
-  /* For I.E */
   -moz-box-shadow: 0 0 5px;
-  /* For Mozilla Web Browser */
   border-radius: 5px;
   -webkit-border-radius: 5px;
-  /* For I.E */
-  -moz-border-radius: 5px
-    /* For Mozilla Web Browser */
+  -moz-border-radius: 5px;
 }
 
 div#header {
@@ -87,12 +79,10 @@ div#header {
   overflow: auto;
   border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
-  ;
-  /* For I.E */
   -moz-border-radius: 5px 5px 0 0;
-  ;
-  /* For Mozilla Web Browser */
   box-shadow: 0 6px 2px -2px rgb(14, 99, 123);
+  -webkit-box-shadow: 0 6px 2px -2px rgb(14, 99, 123);
+  -moz-box-shadow: 0 6px 2px -2px rgb(14, 99, 123);
 }
 
 div#footer {
@@ -100,15 +90,20 @@ div#footer {
   align-items: center;
   padding: 5px 20px;
   border-radius: 0 0 5px 5px;
-
   -webkit-border-radius: 0 0 5px 5px;
-  /* For I.E */
   -moz-border-radius: 0 0 5px 5px;
-  /* For Mozilla Web Browser */
 }
 
 div#first p {
   color: #FFF;
+}
+
+img#logo {
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  margin-right: 15px;
+  margin-top: 5px;
 }
 
 ol {
