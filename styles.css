@@ -56,6 +56,11 @@ div#bodyContainer {
   padding: 0 10px;
 }
 
+form#form {
+  max-width: 980px;
+  min-width: 240px;
+}
+
 label {
   font-size: 16px;
   font-weight: 700;
@@ -68,8 +73,7 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 2px 10px;
-  max-width: 680px;
-  min-width: 240px;
+  width: 90%;
   height: 30px;
   font-size: 14px;
   box-shadow: 0 0 5px;
@@ -86,14 +90,14 @@ textarea#message {
 }
 
 button#submit {
+  display: block;
   background-color: #D0622A;
   border-radius: 5px;
   border: none;
   padding: 10px 25px;
+  margin: 10px auto 0;
   color: #FFF;
   text-shadow: 1px 1px 1px #949494;
-  margin-left: 120px;
-  margin-top: 10px;
 }
 
 button#submit:hover {
